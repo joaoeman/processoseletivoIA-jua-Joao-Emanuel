@@ -22,11 +22,11 @@ Após o treinamento, dois gráficos com a evolução de acurácia e perda (trein
 
 ### 2️⃣ Bibliotecas Utilizadas
 
-- Python [preencher versão]
-- TensorFlow/Keras [preencher versão — ex: `pip show tensorflow`]
-- scikit-learn [preencher versão] — usada para o split estratificado treino/validação (`train_test_split`)
-- NumPy [preencher versão]
-- Matplotlib [preencher versão] — geração dos gráficos de histórico de treino
+- Python 3.11.9
+- TensorFlow/Keras 2.12.0 / 2.12.0
+- scikit-learn 1.7.2 — usada para o split estratificado treino/validação (`train_test_split`)
+- NumPy 1.23.5
+- Matplotlib 3.10.9 — geração dos gráficos de histórico de treino
 
 ### 3️⃣ Técnica de Otimização do Modelo
 
