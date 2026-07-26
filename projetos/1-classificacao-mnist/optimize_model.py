@@ -1,7 +1,5 @@
 import tensorflow as tf
-import tensorflow.keras as keras
-import os
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 # ---------------------------------------------------------------------------
 # Projeto 1 — Otimização do Modelo (MNIST)
