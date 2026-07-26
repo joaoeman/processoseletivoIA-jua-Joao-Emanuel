@@ -101,6 +101,8 @@ history = model.fit(
     shuffle=False,
     callbacks=[early_stop]
 )
+
+print(f"Treinamento parou na epoca: {len(history.epoch)}")  
  
 # 6) Exibicao explicita da acurácia de validacao final 
 val_loss, val_acc = model.evaluate(x_val, y_val, verbose=0)
